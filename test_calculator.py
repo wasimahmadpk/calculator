@@ -5,7 +5,7 @@ Unit test for calculator
 import calcultor
 
 
-class TestCalc:
+class TestCalculator:
 
 	def test_addition(self):
 		assert 5 == calcultor.addition(2, 3)
