@@ -2,16 +2,14 @@
 Unit test for calculator
 """
 
-import calculator
+from calculator import calculator
 
 
 class TestCalculator:
 
-	def test_addition(self):
-		assert 5 == calculator.add(2, 3)
+    def test_add(self):
+        print(dir(calculator.calculator))
+        assert 4 == calculator.calculator.add(2, 2)
 
-
-	def test_substraction(self):
-
-		assert 4 == calculator.sub(9, 5)
-
+    def test_sub(self):
+        assert 2 == calculator.calculator.sub(4, 2)
