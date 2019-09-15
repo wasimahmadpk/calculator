@@ -1,6 +1,4 @@
-""" 
-Unit test for calculator
-"""
+# Unit test for calculator
 
 
 from calculator import calculator

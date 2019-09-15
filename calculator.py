@@ -1,6 +1,4 @@
-"""
-Calculator library containing basic math operations.
-"""
+# Calculator library containing basic math operations.
 
 
 class calculator:
