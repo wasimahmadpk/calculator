@@ -12,5 +12,5 @@ class calculator:
     def sub(first_term, second_term):
         return first_term - second_term
 
-    def pprint():
-        print("Inside print")
+    def multiply(first_term, second_term):
+        return first_term * second_term
