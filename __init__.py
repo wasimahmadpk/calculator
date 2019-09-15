@@ -1,1 +1,1 @@
-from calculator import calculator
+import calculator
