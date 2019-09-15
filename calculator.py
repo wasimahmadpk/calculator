@@ -1,7 +1,16 @@
-def add(a, b):
+"""
+Calculator library containing basic math operations.
+"""
 
-	return a + b
 
-def sub(a, b)
+class calculator:
 
-	return a - b
+    def add(first_term, second_term):
+        return first_term + second_term
+
+
+    def sub(first_term, second_term):
+        return first_term - second_term
+
+    def pprint():
+        print("Inside print")
